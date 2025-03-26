@@ -1,0 +1,352 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1742972684655953, "dur":8765, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1742972684664770, "dur":364, "ph":"X", "name": "BuildQueueInit",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1742972684665151, "dur":2747, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1742972684667899, "dur":7408352, "ph":"X", "name": "WaitForBuildFinished", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1742972692076438, "dur":680, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1742972684664846, "dur":3060, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1742972684667988, "dur":54, "ph":"X", "name": "CheckGlobSignature",  "args": { "detail":"/home/mek/Unity/Hub/Editor/6000.0.43f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport" }}
+,{ "pid":12345, "tid":1, "ts":1742972684668095, "dur":87, "ph":"X", "name": "CheckGlobSignature",  "args": { "detail":"/home/mek/Unity/Hub/Editor/6000.0.43f1/Editor/Data/Tools/BuildPipeline" }}
+,{ "pid":12345, "tid":1, "ts":1742972684668182, "dur":790, "ph":"X", "name": "CheckGlobSignature",  "args": { "detail":"/home/mek/Unity/Hub/Editor/6000.0.43f1/Editor/Data/il2cpp/build/deploy" }}
+,{ "pid":12345, "tid":1, "ts":1742972684668972, "dur":2375, "ph":"X", "name": "CheckGlobSignature",  "args": { "detail":"/home/mek/Unity/Hub/Editor/6000.0.43f1/Editor/Data/il2cpp/libil2cpp" }}
+,{ "pid":12345, "tid":1, "ts":1742972684667907, "dur":3484, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1742972684671392, "dur":979, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"UnityLinker /home/mek/Documents/Tutorials/Unity/Flappy Blab/Library/Bee/artifacts/unitylinker_1ofc.traceevents" }}
+,{ "pid":12345, "tid":1, "ts":1742972684672371, "dur":191, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1742972684673347, "dur":61, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/LinuxPlayerBuildProgram/ManagedStripped/Mono.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1742972684673409, "dur":61, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/LinuxPlayerBuildProgram/ManagedStripped/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":1, "ts":1742972684673501, "dur":238, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/LinuxPlayerBuildProgram/ManagedStripped/System.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1742972684673754, "dur":426, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/LinuxPlayerBuildProgram/ManagedStripped/System.Data.dll" }}
+,{ "pid":12345, "tid":1, "ts":1742972684674181, "dur":137, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/LinuxPlayerBuildProgram/ManagedStripped/System.Drawing.dll" }}
+,{ "pid":12345, "tid":1, "ts":1742972684674366, "dur":78, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/LinuxPlayerBuildProgram/ManagedStripped/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":1, "ts":1742972684674488, "dur":262, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/LinuxPlayerBuildProgram/ManagedStripped/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":1, "ts":1742972684674761, "dur":95, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/LinuxPlayerBuildProgram/ManagedStripped/System.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1742972684674856, "dur":59, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/LinuxPlayerBuildProgram/ManagedStripped/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":1, "ts":1742972684674930, "dur":914, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/LinuxPlayerBuildProgram/ManagedStripped/System.Xml.dll" }}
+,{ "pid":12345, "tid":1, "ts":1742972684675845, "dur":760, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/LinuxPlayerBuildProgram/ManagedStripped/System.dll" }}
+,{ "pid":12345, "tid":1, "ts":1742972684676676, "dur":299, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/LinuxPlayerBuildProgram/ManagedStripped/Unity.InputSystem.dll" }}
+,{ "pid":12345, "tid":1, "ts":1742972684677153, "dur":250, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/LinuxPlayerBuildProgram/ManagedStripped/Unity.RenderPipelines.Core.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1742972684677441, "dur":78, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/LinuxPlayerBuildProgram/ManagedStripped/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1742972684677588, "dur":1285, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/LinuxPlayerBuildProgram/ManagedStripped/mscorlib.dll" }}
+,{ "pid":12345, "tid":1, "ts":1742972684673330, "dur":5572, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"GenerateNativePluginsForAssemblies Library/Bee/artifacts/LinuxPlayerBuildProgram/AsyncPluginsFromLinker" }}
+,{ "pid":12345, "tid":1, "ts":1742972684681096, "dur":7395064, "ph":"X", "name": "GenerateNativePluginsForAssemblies",  "args": { "detail":"Library/Bee/artifacts/LinuxPlayerBuildProgram/AsyncPluginsFromLinker" }}
+,{ "pid":12345, "tid":2, "ts":1742972684664858, "dur":3052, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1742972684667911, "dur":652, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1742972684668563, "dur":2836, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1742972684671405, "dur":213, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1742972684671621, "dur":1730, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1742972684673816, "dur":401, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/mek/Documents/Tutorials/Unity/builds/FlappyBlab_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1742972684674394, "dur":93, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1742972684674248, "dur":243, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/mek/Documents/Tutorials/Unity/builds/FlappyBlab_Data/Managed/Unity.RenderPipelines.Universal.Config.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1742972684674524, "dur":103, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/mek/Documents/Tutorials/Unity/builds/FlappyBlab_Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":2, "ts":1742972684674634, "dur":463, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/mek/Documents/Tutorials/Unity/builds/FlappyBlab_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":2, "ts":1742972684675119, "dur":143, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/mek/Documents/Tutorials/Unity/builds/FlappyBlab_Data/Managed/Unity.2D.PixelPerfect.dll" }}
+,{ "pid":12345, "tid":2, "ts":1742972684675270, "dur":365, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/mek/Documents/Tutorials/Unity/builds/FlappyBlab_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1742972684675673, "dur":219, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/mek/Documents/Tutorials/Unity/builds/FlappyBlab_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1742972684675893, "dur":70, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/LinuxPlayerBuildProgram/ManagedStripped/Unity.RenderPipelines.GPUDriven.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1742972684675892, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/mek/Documents/Tutorials/Unity/builds/FlappyBlab_Data/Managed/Unity.RenderPipelines.GPUDriven.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1742972684675982, "dur":288, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/mek/Documents/Tutorials/Unity/builds/FlappyBlab_Data/Managed/Unity.RenderPipelines.GPUDriven.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1742972684676326, "dur":211, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/mek/Documents/Tutorials/Unity/builds/FlappyBlab_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":2, "ts":1742972684676559, "dur":614, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/mek/Documents/Tutorials/Unity/builds/FlappyBlab_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1742972684677290, "dur":503, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/mek/Documents/Tutorials/Unity/builds/FlappyBlab_Data/Managed/Unity.2D.Animation.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1742972684677794, "dur":7398483, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1742972684664910, "dur":3008, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1742972684667919, "dur":430, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1742972684668349, "dur":263, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1742972684668612, "dur":2792, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1742972684671412, "dur":138, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1742972684671568, "dur":1769, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1742972684673341, "dur":430, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/LinuxPlayerBuildProgram/ManagedStripped/Unity.Collections.dll" }}
+,{ "pid":12345, "tid":3, "ts":1742972684673338, "dur":434, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/mek/Documents/Tutorials/Unity/builds/FlappyBlab_Data/Managed/Unity.Collections.dll" }}
+,{ "pid":12345, "tid":3, "ts":1742972684673816, "dur":1213, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/mek/Documents/Tutorials/Unity/builds/FlappyBlab_Data/Managed/Unity.Collections.dll" }}
+,{ "pid":12345, "tid":3, "ts":1742972684675030, "dur":530, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/LinuxPlayerBuildProgram/ManagedStripped/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1742972684675030, "dur":531, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/mek/Documents/Tutorials/Unity/builds/FlappyBlab_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1742972684675584, "dur":1619, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/mek/Documents/Tutorials/Unity/builds/FlappyBlab_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1742972684677257, "dur":165, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/mek/Documents/Tutorials/Unity/builds/FlappyBlab_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1742972684677423, "dur":103, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/LinuxPlayerBuildProgram/ManagedStripped/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1742972684677423, "dur":104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/mek/Documents/Tutorials/Unity/builds/FlappyBlab_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1742972684677547, "dur":466, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/mek/Documents/Tutorials/Unity/builds/FlappyBlab_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1742972684678014, "dur":7398203, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1742972684664932, "dur":2991, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1742972684667924, "dur":663, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1742972684668588, "dur":2805, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1742972684671411, "dur":80, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1742972684671491, "dur":52, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /home/mek/Documents/Tutorials/Unity/builds/FlappyBlab_Data/app.info" }}
+,{ "pid":12345, "tid":4, "ts":1742972684671544, "dur":1791, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1742972684673341, "dur":287, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/LinuxPlayerBuildProgram/ManagedStripped/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1742972684673336, "dur":292, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/mek/Documents/Tutorials/Unity/builds/FlappyBlab_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1742972684673880, "dur":385, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/mek/Documents/Tutorials/Unity/builds/FlappyBlab_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1742972684674291, "dur":77, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1742972684674499, "dur":56, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1742972684674370, "dur":191, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/mek/Documents/Tutorials/Unity/builds/FlappyBlab_Data/Managed/Unity.RenderPipeline.Universal.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":4, "ts":1742972684674613, "dur":131, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/mek/Documents/Tutorials/Unity/builds/FlappyBlab_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1742972684674763, "dur":126, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/mek/Documents/Tutorials/Unity/builds/FlappyBlab_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1742972684674926, "dur":138, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/mek/Documents/Tutorials/Unity/builds/FlappyBlab_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1742972684675099, "dur":159, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/mek/Documents/Tutorials/Unity/builds/FlappyBlab_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1742972684675268, "dur":232, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/mek/Documents/Tutorials/Unity/builds/FlappyBlab_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1742972684675522, "dur":107, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/mek/Documents/Tutorials/Unity/builds/FlappyBlab_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1742972684675654, "dur":199, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/mek/Documents/Tutorials/Unity/builds/FlappyBlab_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1742972684675854, "dur":59, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/LinuxPlayerBuildProgram/ManagedStripped/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1742972684675854, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/mek/Documents/Tutorials/Unity/builds/FlappyBlab_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1742972684675916, "dur":223, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1742972684676141, "dur":262, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/mek/Documents/Tutorials/Unity/builds/FlappyBlab_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1742972684676404, "dur":144, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/LinuxPlayerBuildProgram/ManagedStripped/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":4, "ts":1742972684676404, "dur":144, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/mek/Documents/Tutorials/Unity/builds/FlappyBlab_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":4, "ts":1742972684676566, "dur":803, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/mek/Documents/Tutorials/Unity/builds/FlappyBlab_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":4, "ts":1742972684677399, "dur":170, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/mek/Documents/Tutorials/Unity/builds/FlappyBlab_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1742972684677600, "dur":209, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/mek/Documents/Tutorials/Unity/builds/FlappyBlab_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1742972684677810, "dur":7398401, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1742972684664955, "dur":2973, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1742972684667929, "dur":444, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1742972684668373, "dur":263, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1742972684668636, "dur":2759, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1742972684671415, "dur":187, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/mek/Documents/Tutorials/Unity/builds/libdecor-cairo.so" }}
+,{ "pid":12345, "tid":5, "ts":1742972684671615, "dur":1724, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1742972684673343, "dur":167, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/LinuxPlayerBuildProgram/ManagedStripped/Unity.Rendering.LightTransport.Runtime.dll" }}
+,{ "pid":12345, "tid":5, "ts":1742972684673339, "dur":172, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/mek/Documents/Tutorials/Unity/builds/FlappyBlab_Data/Managed/Unity.Rendering.LightTransport.Runtime.dll" }}
+,{ "pid":12345, "tid":5, "ts":1742972684673835, "dur":1172, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/mek/Documents/Tutorials/Unity/builds/FlappyBlab_Data/Managed/Unity.Rendering.LightTransport.Runtime.dll" }}
+,{ "pid":12345, "tid":5, "ts":1742972684675015, "dur":536, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/mek/Documents/Tutorials/Unity/builds/FlappyBlab_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":5, "ts":1742972684675598, "dur":213, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/mek/Documents/Tutorials/Unity/builds/FlappyBlab_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1742972684675846, "dur":129, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/mek/Documents/Tutorials/Unity/builds/FlappyBlab_Data/Managed/Unity.2D.IK.Runtime.dll" }}
+,{ "pid":12345, "tid":5, "ts":1742972684675984, "dur":359, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/mek/Documents/Tutorials/Unity/builds/FlappyBlab_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":5, "ts":1742972684676373, "dur":125, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/mek/Documents/Tutorials/Unity/builds/FlappyBlab_Data/Managed/Unity.Collections.LowLevel.ILSupport.dll" }}
+,{ "pid":12345, "tid":5, "ts":1742972684676559, "dur":589, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/mek/Documents/Tutorials/Unity/builds/FlappyBlab_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1742972684677220, "dur":338, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/mek/Documents/Tutorials/Unity/builds/FlappyBlab_Data/Managed/Unity.2D.SpriteShape.Runtime.dll" }}
+,{ "pid":12345, "tid":5, "ts":1742972684677568, "dur":290, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/mek/Documents/Tutorials/Unity/builds/FlappyBlab_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1742972684677859, "dur":7398363, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1742972684664983, "dur":2955, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1742972684667939, "dur":598, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1742972684668537, "dur":2857, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1742972684671396, "dur":198, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1742972684671598, "dur":1734, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1742972684673337, "dur":311, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/LinuxPlayerBuildProgram/ManagedStripped/netstandard.dll" }}
+,{ "pid":12345, "tid":6, "ts":1742972684673333, "dur":316, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/mek/Documents/Tutorials/Unity/builds/FlappyBlab_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":6, "ts":1742972684674258, "dur":59, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1742972684673873, "dur":451, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/mek/Documents/Tutorials/Unity/builds/FlappyBlab_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":6, "ts":1742972684674357, "dur":181, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/mek/Documents/Tutorials/Unity/builds/FlappyBlab_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1742972684674539, "dur":227, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/LinuxPlayerBuildProgram/ManagedStripped/Unity.RenderPipelines.Universal.Runtime.dll" }}
+,{ "pid":12345, "tid":6, "ts":1742972684674539, "dur":227, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/mek/Documents/Tutorials/Unity/builds/FlappyBlab_Data/Managed/Unity.RenderPipelines.Universal.Runtime.dll" }}
+,{ "pid":12345, "tid":6, "ts":1742972684675488, "dur":79, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1742972684674774, "dur":799, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/mek/Documents/Tutorials/Unity/builds/FlappyBlab_Data/Managed/Unity.RenderPipelines.Universal.Runtime.dll" }}
+,{ "pid":12345, "tid":6, "ts":1742972684675610, "dur":251, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/mek/Documents/Tutorials/Unity/builds/FlappyBlab_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1742972684675912, "dur":117, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/mek/Documents/Tutorials/Unity/builds/FlappyBlab_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1742972684676056, "dur":419, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/mek/Documents/Tutorials/Unity/builds/FlappyBlab_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1742972684676476, "dur":67, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/LinuxPlayerBuildProgram/ManagedStripped/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1742972684676476, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/mek/Documents/Tutorials/Unity/builds/FlappyBlab_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1742972684676550, "dur":689, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/mek/Documents/Tutorials/Unity/builds/FlappyBlab_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1742972684677250, "dur":1074, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/mek/Documents/Tutorials/Unity/builds/FlappyBlab_Data/Managed/Unity.InputSystem.dll" }}
+,{ "pid":12345, "tid":6, "ts":1742972684678325, "dur":7397893, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1742972684664990, "dur":2959, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1742972684667950, "dur":504, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1742972684668454, "dur":2943, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1742972684671400, "dur":137, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1742972684671585, "dur":1745, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1742972684673338, "dur":603, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/LinuxPlayerBuildProgram/ManagedStripped/System.Core.dll" }}
+,{ "pid":12345, "tid":7, "ts":1742972684673333, "dur":609, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/mek/Documents/Tutorials/Unity/builds/FlappyBlab_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":7, "ts":1742972684673956, "dur":1196, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/mek/Documents/Tutorials/Unity/builds/FlappyBlab_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":7, "ts":1742972684675153, "dur":988, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/LinuxPlayerBuildProgram/ManagedStripped/System.dll" }}
+,{ "pid":12345, "tid":7, "ts":1742972684675152, "dur":989, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/mek/Documents/Tutorials/Unity/builds/FlappyBlab_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":7, "ts":1742972684676185, "dur":2269, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/mek/Documents/Tutorials/Unity/builds/FlappyBlab_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":7, "ts":1742972684678455, "dur":7397780, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1742972684664986, "dur":2958, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1742972684667946, "dur":535, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1742972684668481, "dur":2920, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1742972684671416, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1742972684671499, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/mek/Documents/Tutorials/Unity/builds/FlappyBlab_Data/Resources/UnityPlayer.png" }}
+,{ "pid":12345, "tid":8, "ts":1742972684671630, "dur":1703, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1742972684673338, "dur":928, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/LinuxPlayerBuildProgram/ManagedStripped/System.Data.dll" }}
+,{ "pid":12345, "tid":8, "ts":1742972684673334, "dur":933, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/mek/Documents/Tutorials/Unity/builds/FlappyBlab_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":8, "ts":1742972684674272, "dur":58, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1742972684674332, "dur":2139, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/mek/Documents/Tutorials/Unity/builds/FlappyBlab_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":8, "ts":1742972684676484, "dur":789, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/mek/Documents/Tutorials/Unity/builds/FlappyBlab_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":8, "ts":1742972684677309, "dur":593, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/mek/Documents/Tutorials/Unity/builds/FlappyBlab_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1742972684677903, "dur":7398317, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1742972684665012, "dur":2942, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1742972684667956, "dur":456, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1742972684668412, "dur":138, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1742972684668550, "dur":2850, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1742972684671414, "dur":95, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1742972684671514, "dur":1814, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1742972684673335, "dur":87, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/LinuxPlayerBuildProgram/ManagedStripped/Unity.InternalAPIEngineBridge.001.dll" }}
+,{ "pid":12345, "tid":9, "ts":1742972684673331, "dur":92, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/mek/Documents/Tutorials/Unity/builds/FlappyBlab_Data/Managed/Unity.InternalAPIEngineBridge.001.dll" }}
+,{ "pid":12345, "tid":9, "ts":1742972684673844, "dur":363, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/mek/Documents/Tutorials/Unity/builds/FlappyBlab_Data/Managed/Unity.InternalAPIEngineBridge.001.dll" }}
+,{ "pid":12345, "tid":9, "ts":1742972684674310, "dur":77, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1742972684674226, "dur":184, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/mek/Documents/Tutorials/Unity/builds/FlappyBlab_Data/Managed/Unity.RenderPipelines.Universal.Shaders.dll" }}
+,{ "pid":12345, "tid":9, "ts":1742972684674449, "dur":122, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/mek/Documents/Tutorials/Unity/builds/FlappyBlab_Data/Managed/Unity.Multiplayer.Center.Common.dll" }}
+,{ "pid":12345, "tid":9, "ts":1742972684674593, "dur":105, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/mek/Documents/Tutorials/Unity/builds/FlappyBlab_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1742972684674729, "dur":151, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/mek/Documents/Tutorials/Unity/builds/FlappyBlab_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1742972684674908, "dur":131, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/mek/Documents/Tutorials/Unity/builds/FlappyBlab_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1742972684675046, "dur":360, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/mek/Documents/Tutorials/Unity/builds/FlappyBlab_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":9, "ts":1742972684675556, "dur":197, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1742972684675452, "dur":306, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/mek/Documents/Tutorials/Unity/builds/FlappyBlab_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1742972684675782, "dur":166, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/mek/Documents/Tutorials/Unity/builds/FlappyBlab_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1742972684675956, "dur":151, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/mek/Documents/Tutorials/Unity/builds/FlappyBlab_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":9, "ts":1742972684676159, "dur":117, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/mek/Documents/Tutorials/Unity/builds/FlappyBlab_Data/Managed/UnityEngine.MultiplayerModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1742972684676301, "dur":117, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/mek/Documents/Tutorials/Unity/builds/FlappyBlab_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1742972684676435, "dur":548, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/mek/Documents/Tutorials/Unity/builds/FlappyBlab_Data/Managed/UnityEngine.GraphicsStateCollectionSerializerModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1742972684676983, "dur":164, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/mek/Documents/Tutorials/Unity/builds/FlappyBlab_Data/Managed/Unity.RenderPipelines.Core.Runtime.Shared.dll" }}
+,{ "pid":12345, "tid":9, "ts":1742972684677156, "dur":132, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/mek/Documents/Tutorials/Unity/builds/FlappyBlab_Data/Managed/Unity.RenderPipelines.Core.Runtime.Shared.dll" }}
+,{ "pid":12345, "tid":9, "ts":1742972684677289, "dur":95, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/LinuxPlayerBuildProgram/ManagedStripped/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":9, "ts":1742972684677289, "dur":95, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/mek/Documents/Tutorials/Unity/builds/FlappyBlab_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":9, "ts":1742972684677393, "dur":346, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/mek/Documents/Tutorials/Unity/builds/FlappyBlab_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":9, "ts":1742972684677740, "dur":7398462, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1742972684665051, "dur":2907, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1742972684667960, "dur":541, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1742972684668501, "dur":2891, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1742972684671433, "dur":222, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"AddBootConfigGUID Library/Bee/artifacts/LinuxPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":10, "ts":1742972684671668, "dur":1669, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1742972684673338, "dur":276, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/LinuxPlayerBuildProgram/ManagedStripped/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1742972684673337, "dur":277, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/mek/Documents/Tutorials/Unity/builds/FlappyBlab_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1742972684674175, "dur":125, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1742972684673855, "dur":453, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/mek/Documents/Tutorials/Unity/builds/FlappyBlab_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1742972684674310, "dur":65, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/LinuxPlayerBuildProgram/ManagedStripped/UnityEngine.PropertiesModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1742972684674309, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/mek/Documents/Tutorials/Unity/builds/FlappyBlab_Data/Managed/UnityEngine.PropertiesModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1742972684674407, "dur":253, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/mek/Documents/Tutorials/Unity/builds/FlappyBlab_Data/Managed/UnityEngine.PropertiesModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1742972684674708, "dur":124, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/mek/Documents/Tutorials/Unity/builds/FlappyBlab_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1742972684674835, "dur":58, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/LinuxPlayerBuildProgram/ManagedStripped/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1742972684674834, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/mek/Documents/Tutorials/Unity/builds/FlappyBlab_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1742972684674900, "dur":215, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/mek/Documents/Tutorials/Unity/builds/FlappyBlab_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1742972684675126, "dur":910, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/mek/Documents/Tutorials/Unity/builds/FlappyBlab_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":10, "ts":1742972684676060, "dur":143, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/mek/Documents/Tutorials/Unity/builds/FlappyBlab_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1742972684676239, "dur":129, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/mek/Documents/Tutorials/Unity/builds/FlappyBlab_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":10, "ts":1742972684676402, "dur":512, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/mek/Documents/Tutorials/Unity/builds/FlappyBlab_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1742972684676916, "dur":141, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/LinuxPlayerBuildProgram/ManagedStripped/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":10, "ts":1742972684676915, "dur":142, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/mek/Documents/Tutorials/Unity/builds/FlappyBlab_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":10, "ts":1742972684677150, "dur":489, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/mek/Documents/Tutorials/Unity/builds/FlappyBlab_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":10, "ts":1742972684677660, "dur":105, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/mek/Documents/Tutorials/Unity/builds/FlappyBlab_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1742972684677765, "dur":7398440, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1742972684665080, "dur":2888, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1742972684667970, "dur":611, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1742972684668581, "dur":2813, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1742972684671407, "dur":66, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1742972684671495, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/mek/Documents/Tutorials/Unity/builds/FlappyBlab_Data/MonoBleedingEdge/x86_64/libmonobdwgc-2.0.so" }}
+,{ "pid":12345, "tid":11, "ts":1742972684671577, "dur":1762, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1742972684673341, "dur":249, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/LinuxPlayerBuildProgram/ManagedStripped/Unity.InputSystem.ForUI.dll" }}
+,{ "pid":12345, "tid":11, "ts":1742972684673340, "dur":251, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/mek/Documents/Tutorials/Unity/builds/FlappyBlab_Data/Managed/Unity.InputSystem.ForUI.dll" }}
+,{ "pid":12345, "tid":11, "ts":1742972684673850, "dur":378, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/mek/Documents/Tutorials/Unity/builds/FlappyBlab_Data/Managed/Unity.InputSystem.ForUI.dll" }}
+,{ "pid":12345, "tid":11, "ts":1742972684674279, "dur":196, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/mek/Documents/Tutorials/Unity/builds/FlappyBlab_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1742972684674508, "dur":101, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/mek/Documents/Tutorials/Unity/builds/FlappyBlab_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1742972684675081, "dur":1089, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1742972684674667, "dur":1509, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/mek/Documents/Tutorials/Unity/builds/FlappyBlab_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1742972684676231, "dur":157, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/mek/Documents/Tutorials/Unity/builds/FlappyBlab_Data/Managed/Unity.2D.Tilemap.Extras.dll" }}
+,{ "pid":12345, "tid":11, "ts":1742972684676406, "dur":219, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/mek/Documents/Tutorials/Unity/builds/FlappyBlab_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":11, "ts":1742972684676642, "dur":322, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/mek/Documents/Tutorials/Unity/builds/FlappyBlab_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1742972684677134, "dur":173, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/mek/Documents/Tutorials/Unity/builds/FlappyBlab_Data/Managed/UnityEngine.MarshallingModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1742972684677332, "dur":421, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/mek/Documents/Tutorials/Unity/builds/FlappyBlab_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1742972684677753, "dur":7398541, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1742972684665084, "dur":2888, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1742972684667973, "dur":377, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1742972684668350, "dur":283, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1742972684668633, "dur":2763, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1742972684671444, "dur":100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/mek/Documents/Tutorials/Unity/builds/FlappyBlab_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":12, "ts":1742972684671557, "dur":1772, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1742972684673336, "dur":148, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/LinuxPlayerBuildProgram/ManagedStripped/UnityEngine.dll" }}
+,{ "pid":12345, "tid":12, "ts":1742972684673332, "dur":153, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/mek/Documents/Tutorials/Unity/builds/FlappyBlab_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":12, "ts":1742972684674339, "dur":61, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1742972684673827, "dur":576, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/mek/Documents/Tutorials/Unity/builds/FlappyBlab_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":12, "ts":1742972684674456, "dur":645, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/mek/Documents/Tutorials/Unity/builds/FlappyBlab_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":12, "ts":1742972684675141, "dur":52, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1742972684675196, "dur":190, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/mek/Documents/Tutorials/Unity/builds/FlappyBlab_Data/Managed/UnityEngine.HierarchyCoreModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1742972684675388, "dur":228, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/LinuxPlayerBuildProgram/ManagedStripped/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":12, "ts":1742972684675387, "dur":230, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/mek/Documents/Tutorials/Unity/builds/FlappyBlab_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":12, "ts":1742972684675639, "dur":793, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/mek/Documents/Tutorials/Unity/builds/FlappyBlab_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":12, "ts":1742972684676434, "dur":1332, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/LinuxPlayerBuildProgram/ManagedStripped/mscorlib.dll" }}
+,{ "pid":12345, "tid":12, "ts":1742972684676433, "dur":1334, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/mek/Documents/Tutorials/Unity/builds/FlappyBlab_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":12, "ts":1742972684677777, "dur":4617, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/mek/Documents/Tutorials/Unity/builds/FlappyBlab_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":12, "ts":1742972684682395, "dur":7393803, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1742972684665109, "dur":2867, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1742972684667977, "dur":331, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1742972684668308, "dur":314, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1742972684668622, "dur":2785, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1742972684671407, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/mek/Documents/Tutorials/Unity/builds/FlappyBlab.x86_64" }}
+,{ "pid":12345, "tid":13, "ts":1742972684671493, "dur":63, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1742972684671561, "dur":1767, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1742972684673335, "dur":292, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/LinuxPlayerBuildProgram/ManagedStripped/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":13, "ts":1742972684673331, "dur":297, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/mek/Documents/Tutorials/Unity/builds/FlappyBlab_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":13, "ts":1742972684674210, "dur":133, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1742972684673867, "dur":480, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/mek/Documents/Tutorials/Unity/builds/FlappyBlab_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":13, "ts":1742972684674363, "dur":268, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1742972684674633, "dur":125, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/mek/Documents/Tutorials/Unity/builds/FlappyBlab_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1742972684674799, "dur":143, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/mek/Documents/Tutorials/Unity/builds/FlappyBlab_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1742972684674983, "dur":198, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1742972684675182, "dur":189, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/mek/Documents/Tutorials/Unity/builds/FlappyBlab_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":13, "ts":1742972684675403, "dur":118, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/mek/Documents/Tutorials/Unity/builds/FlappyBlab_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":13, "ts":1742972684675593, "dur":226, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/mek/Documents/Tutorials/Unity/builds/FlappyBlab_Data/Managed/Unity.2D.Common.Runtime.dll" }}
+,{ "pid":12345, "tid":13, "ts":1742972684675866, "dur":617, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/mek/Documents/Tutorials/Unity/builds/FlappyBlab_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":13, "ts":1742972684676541, "dur":656, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/mek/Documents/Tutorials/Unity/builds/FlappyBlab_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1742972684677244, "dur":457, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/mek/Documents/Tutorials/Unity/builds/FlappyBlab_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1742972684677702, "dur":7398508, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1742972684665112, "dur":2868, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1742972684667981, "dur":491, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1742972684668472, "dur":2932, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1742972684671405, "dur":111, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/mek/Documents/Tutorials/Unity/builds/UnityPlayer.so" }}
+,{ "pid":12345, "tid":14, "ts":1742972684671552, "dur":1784, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1742972684673340, "dur":296, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/LinuxPlayerBuildProgram/ManagedStripped/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":14, "ts":1742972684673337, "dur":299, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/mek/Documents/Tutorials/Unity/builds/FlappyBlab_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":14, "ts":1742972684673885, "dur":391, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/mek/Documents/Tutorials/Unity/builds/FlappyBlab_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":14, "ts":1742972684674323, "dur":184, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/mek/Documents/Tutorials/Unity/builds/FlappyBlab_Data/Managed/UnityEngine.InputForUIModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1742972684674529, "dur":160, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1742972684674690, "dur":112, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/mek/Documents/Tutorials/Unity/builds/FlappyBlab_Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll" }}
+,{ "pid":12345, "tid":14, "ts":1742972684674832, "dur":149, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/mek/Documents/Tutorials/Unity/builds/FlappyBlab_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1742972684675047, "dur":235, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/mek/Documents/Tutorials/Unity/builds/FlappyBlab_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1742972684675290, "dur":126, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/mek/Documents/Tutorials/Unity/builds/FlappyBlab_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":14, "ts":1742972684675444, "dur":96, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/mek/Documents/Tutorials/Unity/builds/FlappyBlab_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1742972684675575, "dur":121, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/mek/Documents/Tutorials/Unity/builds/FlappyBlab_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1742972684675697, "dur":65, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/LinuxPlayerBuildProgram/ManagedStripped/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1742972684675697, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/mek/Documents/Tutorials/Unity/builds/FlappyBlab_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1742972684675770, "dur":325, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/mek/Documents/Tutorials/Unity/builds/FlappyBlab_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1742972684676097, "dur":79, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/LinuxPlayerBuildProgram/ManagedStripped/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1742972684676096, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/mek/Documents/Tutorials/Unity/builds/FlappyBlab_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1742972684676184, "dur":330, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/mek/Documents/Tutorials/Unity/builds/FlappyBlab_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1742972684676547, "dur":439, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/mek/Documents/Tutorials/Unity/builds/FlappyBlab_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1742972684677131, "dur":271, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/LinuxPlayerBuildProgram/ManagedStripped/Unity.RenderPipelines.Core.Runtime.dll" }}
+,{ "pid":12345, "tid":14, "ts":1742972684676987, "dur":416, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/mek/Documents/Tutorials/Unity/builds/FlappyBlab_Data/Managed/Unity.RenderPipelines.Core.Runtime.dll" }}
+,{ "pid":12345, "tid":14, "ts":1742972684677427, "dur":1087, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/mek/Documents/Tutorials/Unity/builds/FlappyBlab_Data/Managed/Unity.RenderPipelines.Core.Runtime.dll" }}
+,{ "pid":12345, "tid":14, "ts":1742972684678516, "dur":7397692, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1742972684665147, "dur":2843, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1742972684667990, "dur":223, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1742972684668213, "dur":241, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1742972684668454, "dur":102, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1742972684668556, "dur":2853, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1742972684671409, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/mek/Documents/Tutorials/Unity/builds/libdecor-0.so.0" }}
+,{ "pid":12345, "tid":15, "ts":1742972684671533, "dur":1801, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1742972684673338, "dur":148, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/LinuxPlayerBuildProgram/ManagedStripped/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":15, "ts":1742972684673335, "dur":152, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/mek/Documents/Tutorials/Unity/builds/FlappyBlab_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":15, "ts":1742972684673823, "dur":709, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/mek/Documents/Tutorials/Unity/builds/FlappyBlab_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":15, "ts":1742972684674582, "dur":124, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/mek/Documents/Tutorials/Unity/builds/FlappyBlab_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1742972684674715, "dur":137, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/mek/Documents/Tutorials/Unity/builds/FlappyBlab_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":15, "ts":1742972684674892, "dur":100, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/mek/Documents/Tutorials/Unity/builds/FlappyBlab_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1742972684675104, "dur":53, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1742972684675013, "dur":150, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/mek/Documents/Tutorials/Unity/builds/FlappyBlab_Data/Managed/UnityEngine.ShaderVariantAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1742972684675188, "dur":125, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/mek/Documents/Tutorials/Unity/builds/FlappyBlab_Data/Managed/UnityEngine.ContentLoadModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1742972684675349, "dur":136, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/mek/Documents/Tutorials/Unity/builds/FlappyBlab_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1742972684675504, "dur":83, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1742972684675588, "dur":121, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/mek/Documents/Tutorials/Unity/builds/FlappyBlab_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1742972684675730, "dur":200, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/mek/Documents/Tutorials/Unity/builds/FlappyBlab_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":15, "ts":1742972684675932, "dur":199, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/LinuxPlayerBuildProgram/ManagedStripped/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":15, "ts":1742972684675932, "dur":199, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/mek/Documents/Tutorials/Unity/builds/FlappyBlab_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":15, "ts":1742972684676156, "dur":590, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/mek/Documents/Tutorials/Unity/builds/FlappyBlab_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":15, "ts":1742972684676767, "dur":201, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/mek/Documents/Tutorials/Unity/builds/FlappyBlab_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1742972684677140, "dur":2540, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/mek/Documents/Tutorials/Unity/builds/FlappyBlab_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":15, "ts":1742972684679681, "dur":7396519, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1742972684665142, "dur":2844, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1742972684667987, "dur":437, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1742972684668424, "dur":234, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1742972684668658, "dur":2740, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1742972684671402, "dur":97, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1742972684671523, "dur":1818, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1742972684673342, "dur":365, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/LinuxPlayerBuildProgram/ManagedStripped/Unity.RenderPipelines.Universal.2D.Runtime.dll" }}
+,{ "pid":12345, "tid":16, "ts":1742972684673342, "dur":366, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/mek/Documents/Tutorials/Unity/builds/FlappyBlab_Data/Managed/Unity.RenderPipelines.Universal.2D.Runtime.dll" }}
+,{ "pid":12345, "tid":16, "ts":1742972684673891, "dur":555, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/mek/Documents/Tutorials/Unity/builds/FlappyBlab_Data/Managed/Unity.RenderPipelines.Universal.2D.Runtime.dll" }}
+,{ "pid":12345, "tid":16, "ts":1742972684674447, "dur":60, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/LinuxPlayerBuildProgram/ManagedStripped/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1742972684674447, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/mek/Documents/Tutorials/Unity/builds/FlappyBlab_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1742972684675079, "dur":92, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1742972684674543, "dur":632, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/mek/Documents/Tutorials/Unity/builds/FlappyBlab_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1742972684675388, "dur":141, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1742972684675243, "dur":290, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/mek/Documents/Tutorials/Unity/builds/FlappyBlab_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1742972684675579, "dur":167, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/mek/Documents/Tutorials/Unity/builds/FlappyBlab_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1742972684675747, "dur":612, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/LinuxPlayerBuildProgram/ManagedStripped/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1742972684675747, "dur":613, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/mek/Documents/Tutorials/Unity/builds/FlappyBlab_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1742972684676371, "dur":1910, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/mek/Documents/Tutorials/Unity/builds/FlappyBlab_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1742972684678282, "dur":7397944, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1742972692079089, "dur":177, "ph":"X", "name": "ProfilerWriteOutput" }
+,
